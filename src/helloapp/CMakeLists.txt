@@ -4,7 +4,7 @@ include_directories(
     ${CMAKE_SOURCE_DIR}/include
 )
 
-add_library(helloapp
+add_executable(helloapp
     main.cpp
 )
 
